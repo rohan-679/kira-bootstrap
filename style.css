@@ -51,14 +51,17 @@
 #banner{
     /* margin-top: 122px; */
     background-image: url('img/Rectangle\ 3.1.jpg');
-   height: 500px;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 #banner-text h1{
     color: white;
     font-size: 70px;
     font-family: 'dharma', sans-serif;
     letter-spacing: 8px;
-    margin-top: 200px;
+    margin-top: 350px;
     margin-left: 80px;
 }
 #banner-text p{
@@ -73,7 +76,7 @@
     background: red;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 230px;
+    margin-top: 370px;
     margin-left: 100px;
     cursor: pointer;
     transform: skew(-20deg);
