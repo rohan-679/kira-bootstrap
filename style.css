@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap'); 
+
+@font-face{
+    font-family: dharma;
+    src: url('./fonts/dharmagothice_exbold_r.otf')
+}
+
+/* navbar  */
+#top_nav{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 8%;
+    /* height: 122px; */
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    font-size: 36px;
+    padding-right: 40px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: red;
+    cursor: pointer;
+}
+.container-fluid .navbar-brand img{
+    height: 100px;
+    border-bottom: 4px solid red;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 30px;
+        text-align: center;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: red;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 500px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 25px;
+        text-align: center;
+    }
+    #top_nav{
+        padding: 0 0;
+    }
+}
+/* navbar  */
+
+/* banner  */
+#banner{
+    /* margin-top: 122px; */
+    background-image: url('img/Rectangle\ 3.1.jpg');
+   height: 500px;
+}
+#banner-text h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'dharma', sans-serif;
+    letter-spacing: 8px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+#banner-text p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#banner-text p span{
+    color: red;
+}
+#btn-red{
+    background: red;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 230px;
+    margin-left: 100px;
+    cursor: pointer;
+    transform: skew(-20deg);
+    border-radius: 0px;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+#btn-red:hover{
+    background: white;
+    border: 2px solid red;
+    color: red;
+}
+@media only screen and (max-width: 1300px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 30px;
+        text-align: center;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: red;
+    }
+}
+@media only screen and (max-width: 900px){
+    #banner-text h1{
+        color: white;
+        font-size: 55px;
+        font-family: 'dharma', sans-serif;
+        letter-spacing: 8px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    #banner-text p{
+        color: white;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    #btn-red{
+        background: red;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -40px;
+        margin-left: 120px;
+        cursor: pointer;
+        transform: skew(-20deg);
+        border-radius: 0px;
+        padding: 5px 15px;
+        transition: all 0.3s ease;
+    }
+}
+/* banner  */
+
+
+/* head container  */
+#head-cnt{
+    /* margin-top: -120px; */
+    background: black;
+    max-width: 100vw;
+    height: 80%;
+    color: white;
+}
+#text-div1 h1{
+    font-family: 'dharma', sans-serif;
+    letter-spacing: 8px;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+#text-div4 h1{
+    font-family: 'dharma', sans-serif;
+    letter-spacing: 8px;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#text-div2 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#text-div5 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#text-div3 h1{
+    font-family: 'dharma', sans-serif;
+    letter-spacing: 3px;
+    font-size: 130px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#text-div3 h1 span{
+    color: red;
+}
+@media only screen and (max-width: 500px){
+    #text-div1 h1{
+        font-family: 'dharma', sans-serif;
+        letter-spacing: 4px;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+    }
+    #text-div4 h1{
+        font-family: 'dharma', sans-serif;
+        letter-spacing:4px;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #text-div2 p{
+        font-size: 10px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    #text-div5 p{
+        font-size: 10px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    #text-div3 h1{
+        font-family: 'dharma', sans-serif;
+        letter-spacing: 3px;
+        font-size: 80px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+/* head container  */
+
+
+/* about  */
+#about{
+    background: black;
+    color: white;
+    height: 100vh;
+}
+#about-content h1{
+    margin-top: 40px;
+    font-size: 96px;
+    font-family: 'dharma', sans-serif;
+    border-bottom: 5px solid red;
+}
+#about-content p{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px){
+    #about-content h1{
+        margin-top: 80px;
+        font-size: 96px;
+        font-family: 'dharma', sans-serif;
+        border-bottom: 5px solid red;
+    }
+    #about-content p{
+        margin-top: 80px;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #about-content h1{
+        margin-top: 40px;
+        font-size: 96px;
+        font-family: 'dharma', sans-serif;
+        border-bottom: 5px solid red;
+    }
+    #about-content p{
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #about-content h1{
+        margin-top: 40px;
+        font-size: 66px;
+        text-align: center;
+        font-family: 'dharma', sans-serif;
+        border-bottom: 5px solid red;
+    }
+    #about-content p{
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #about-content h1{
+        margin-top: 40px;
+        font-size: 66px;
+        text-align: center;
+        font-family: 'dharma', sans-serif;
+        border-bottom: 5px solid red;
+    }
+    #about-content p{
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
+/* about  */
